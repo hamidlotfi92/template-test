@@ -1,0 +1,10 @@
+html{
+    /* everytime we add padding to an element, it causes the page to strech.this prevents padding from add extra width or height to page */
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* vh=veiwprt height. next line means every time we use this  page it will use 100% of page height */
+    min-height: 100vh; 
+    
+}
